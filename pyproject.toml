@@ -1,0 +1,11 @@
+[project]
+name = "df2map"
+version = "0.1.0"
+description = "Visualising a pandas.DataFrame on a Map with Folium"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.2",
+    "folium>=0.18.0",
+    "python-geohash>=0.8.5",
+]
